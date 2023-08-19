@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            transition: 0.5s linear;
+  background-color: white;
+  color: black;
+  font-family: sans-serif;
+        }
+        button:hover{
+            background-color: greenyellow;
+            transition: 0.5s linear;
+            box-shadow: 15px 20px 20px gray;
+        }
+        button{
+            border-radius: 25px;
+            border: none;
+            background-color: blue;
+            color: white;
+         padding: 15px 30px;
+         font-size: 18px;
+        }
+        .dark-mode{
+            color: white;
+            background-color: black;
+            transition: 0.5s linear;
+        }
+    </style>
+<h1>Koyu Mod</h1>    
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquam adipisci eaque repellendus! Quis commodi doloremque eveniet corporis maiores itaque ullam facilis id temporibus modi delectus nesciunt voluptatem, molestias vel? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam facere exercitationem aperiam sint, deleniti ab consectetur nisi molestiae reiciendis repellendus? Cum quas ipsa error officia assumenda, facere alias possimus rem.</p>
+<button onclick="myFunction()">Koyu/Açık</button>
+<script>
+    function myFunction(){
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+</script>
+</body>
+</html>
